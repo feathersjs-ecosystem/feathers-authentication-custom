@@ -56,12 +56,12 @@ describe('feathers-authentication-custom', () => {
 
     it('passes the app and settings to the Verifier class constructor', (testDone) => {
       class Verifier {
-        constructor(_app, settings) {
+        constructor (_app, settings) {
           expect(_app).to.equal(app);
           expect(settings.custom.foo).to.equal('bar');
           testDone();
         }
-        verify() {}
+        verify () {}
       }
       const authOptions = app.get('authentication');
       authOptions.custom = { foo: 'bar' };

@@ -36,7 +36,7 @@ describe('integration', () => {
   });
 
   it('exposes the app on `this` for simple verifier functions', (testDone) => {
-    app.configure(custom(function(req, done) {
+    app.configure(custom(function (req, done) {
       expect(this.app).to.equal(app);
       testDone();
     }));
@@ -51,7 +51,7 @@ describe('integration', () => {
       verify (req, done) {
         done(null, user);
       }
-    };
+    }
     app.configure(custom({ Verifier }));
 
     app.setup();

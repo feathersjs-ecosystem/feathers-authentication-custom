@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-expressions */
 
 import feathers from 'feathers';
-// import memory from 'feathers-memory';
 import authentication from 'feathers-authentication';
 import chai, { expect } from 'chai';
 import sinon from 'sinon';

@@ -1,6 +1,5 @@
 import feathers from 'feathers';
 import authentication from 'feathers-authentication';
-// import memory from 'feathers-memory';
 import hooks from 'feathers-hooks';
 import custom from '../src';
 import { expect } from 'chai';

@@ -1,5 +1,12 @@
 # feathers-authentication-custom
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/feathersjs-ecosystem/feathers-authentication-custom.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/feathersjs-ecosystem/feathers-authentication-custom.png?branch=master)](https://travis-ci.org/feathersjs-ecosystem/feathers-authentication-custom)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2a19498748e3f10183e0/maintainability)](https://codeclimate.com/github/feathersjs-ecosystem/feathers-authentication-custom/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/2a19498748e3f10183e0/test_coverage)](https://codeclimate.com/github/feathersjs-ecosystem/feathers-authentication-custom/test_coverage)
+[![Dependency Status](https://img.shields.io/david/feathersjs-ecosystem/feathers-authentication-custom.svg?style=flat-square)](https://david-dm.org/feathersjs-ecosystem/feathers-authentication-custom)
+[![Download Status](https://img.shields.io/npm/dm/feathersjs-ecosystem/feathers-authentication-custom.svg?style=flat-square)](https://www.npmjs.com/package/feathers-authentication-custom)
+
 > Custom authentication strategy for feathers-authentication using Passport
 
 ## Installation
@@ -7,10 +14,6 @@
 ```
 npm install feathers-authentication-custom --save
 ```
-
-## Documentation
-
-<!-- Please refer to the [feathers-authentication-custom documentation](http://docs.feathersjs.com/) for more details. -->
 
 ## API
 

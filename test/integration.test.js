@@ -1,8 +1,10 @@
-import feathers from 'feathers';
-import authentication from 'feathers-authentication';
-import hooks from 'feathers-hooks';
-import custom from '../src';
-import { expect } from 'chai';
+/* eslint-disable no-unused-expressions */
+const feathers = require('feathers');
+const authentication = require('feathers-authentication');
+const hooks = require('feathers-hooks');
+const { expect } = require('chai');
+
+const custom = require('../lib');
 
 describe('integration', () => {
   let app, user, req;

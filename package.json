@@ -1,6 +1,6 @@
 {
   "name": "feathers-authentication-custom",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Custom authentication strategy for feathers-authentication using Passport",
   "main": "lib/",
   "scripts": {

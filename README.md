@@ -1,6 +1,6 @@
 # feathers-authentication-custom
 
-> __Umnaintained:__ This module is no longer maintained. Upgrade to Feathers 4 and use its new [authentication strategies](https://docs.feathersjs.com/api/authentication/strategy.html) instead.
+> __Deprecated:__ This module is no longer maintained. Upgrade to Feathers 4 and use its new [authentication strategies](https://docs.feathersjs.com/api/authentication/strategy.html) instead.
 
 > Custom authentication strategy for feathers-authentication using Passport
 
